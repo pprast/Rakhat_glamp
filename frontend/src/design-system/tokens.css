@@ -1,0 +1,59 @@
+:root {
+  /* === LIGHT GLAMPING PALETTE === */
+
+  /* Backgrounds */
+  --color-sand-white:  #FAF7F1;
+  --color-sand:        #F2E9D6;
+  --color-linen:       #E8DCCA;
+  --color-stone:       #D0BFA8;
+
+  /* Text */
+  --color-ink:         #1A0F04;
+  --color-earth:       #5A3A18;
+  --color-clay:        #9A7A54;
+
+  /* Primary accent – sun/warmth */
+  --color-sun:         #D4913A;
+  --color-amber:       #C07030;
+  --color-honey:       #F0C050;
+
+  /* Nature green */
+  --color-sage:        #7A9E68;
+  --color-forest:      #3A6832;
+  --color-moss:        #587848;
+
+  /* Water & sky */
+  --color-sky-pale:    #DFF0FA;
+  --color-sky:         #7BBFDF;
+  --color-water:       #3E8EB0;
+  --color-ocean:       #1E6080;
+
+  /* Dark (footer, CTA sections) */
+  --color-deep:        #1A2510;
+  --color-charcoal:    #2A1A08;
+  --color-white-warm:  #FFFDF8;
+
+  /* Typography */
+  --font-display:    'Cormorant Garamond', Georgia, serif;
+  --font-display-sc: 'Cormorant SC', Georgia, serif;
+  --font-sans:       'Inter', system-ui, sans-serif;
+
+  /* Fluid sizes */
+  --text-hero:    clamp(3.5rem, 10vw, 9rem);
+  --text-section: clamp(2.2rem, 5vw, 4.5rem);
+  --text-sub:     clamp(1.05rem, 2vw, 1.4rem);
+
+  /* Spacing */
+  --section-py: clamp(80px, 10vw, 180px);
+  --section-px: clamp(20px, 6vw, 120px);
+
+  /* Transitions */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out:    cubic-bezier(0, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Shadows */
+  --shadow-warm-sm: 0 2px 12px rgba(90,58,24,0.08);
+  --shadow-warm:    0 4px 24px rgba(90,58,24,0.12);
+  --shadow-warm-lg: 0 8px 48px rgba(90,58,24,0.18);
+}

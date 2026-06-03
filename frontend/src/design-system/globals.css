@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Cormorant+SC:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap');
+@import './tokens.css';
+@import './animations.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-sand-white);
+  color: var(--color-ink);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--color-sand); }
+::-webkit-scrollbar-thumb { background: var(--color-sun); border-radius: 3px; }
+
+/* Selection */
+::selection { background: var(--color-honey); color: var(--color-ink); }
+
+/* Typography utilities */
+.font-display    { font-family: var(--font-display); }
+.font-display-sc { font-family: var(--font-display-sc); letter-spacing: 0.15em; text-transform: uppercase; }
+
+/* Section spacing */
+.section-padding {
+  padding-top:    var(--section-py);
+  padding-bottom: var(--section-py);
+  padding-left:   var(--section-px);
+  padding-right:  var(--section-px);
+}
+
+/* Card base */
+.card-warm {
+  background: #FFFDF8;
+  border: 1px solid rgba(208,191,168,0.5);
+  box-shadow: var(--shadow-warm);
+  border-radius: 20px;
+}
